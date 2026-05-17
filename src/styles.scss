@@ -1,0 +1,46 @@
+/* Visible light theme with strong contrast for all views */
+@use '@angular/material' as mat;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  color: #111827;
+}
+
+/* Material surface customization */
+.mat-toolbar.mat-primary,
+.mat-mdc-toolbar.mat-primary {
+  background: rgba(255, 255, 255, 0.92);
+  color: #111827;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.mat-card {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.mat-mdc-card {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.mat-mdc-form-field {
+  color: #111827;
+}
+
+.mat-mdc-form-field .mat-mdc-text-field-wrapper {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  mat-grid-list {
+    --mat-grid-list-tile-header-primary-text-size: 12px;
+  }
+}

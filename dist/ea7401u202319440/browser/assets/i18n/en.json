@@ -1,0 +1,48 @@
+{
+  "TOOLBAR": {
+    "TITLE": "YouTube Music Editorial Platform",
+    "HOME": "Home",
+    "NEW_EDITOR": "New Editor"
+  },
+  "HOME": {
+    "TITLE": "Home",
+    "WELCOME": "Welcome to YouTube Music",
+    "EDITOR_ANALYTICS": "Editor Analytics",
+    "NEXT_SERVICE_ORDER": "Next Service Order"
+  },
+  "EDITOR_ROLE_STATS": {
+    "COST_PER_HOUR": "Cost Per Hour",
+    "ACCUMULATED_COST": "Accumulated Cost",
+    "ACTIVE_EDITORS": "Active Editors"
+  },
+  "SERVICE_ORDER": {
+    "ID": "Order ID",
+    "TRACK": "Track",
+    "NEEDED_ACTION": "Needed Action",
+    "PRIORITY": "Priority",
+    "REGISTERED_AT": "Registered At",
+    "NO_ORDER": "No HIGH priority service orders found."
+  },
+  "NEW_EDITOR": {
+    "TITLE": "New Editor",
+    "SUBTITLE": "Add an Editor Record",
+    "TRACK": "Track",
+    "TRACK_PLACEHOLDER": "Select a track",
+    "EDITOR_ROLE": "Editor Role",
+    "EDITOR_ROLE_PLACEHOLDER": "Select a role",
+    "CREATE": "Create",
+    "CANCEL": "Cancel",
+    "SUCCESS": "Editor created successfully.",
+    "ERROR_DUPLICATE": "A record already exists for this track today.",
+    "ERROR_GENERIC": "An error occurred. Please try again."
+  },
+  "NOT_FOUND": {
+    "TITLE": "Page Not Found",
+    "MESSAGE": "The route '{{route}}' was not found.",
+    "GO_HOME": "Go to Home"
+  },
+  "LANGUAGE": {
+    "EN": "EN",
+    "ES": "ES"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "tracks": [
+    {
+      "id": "T001",
+      "name": "Blinding Lights",
+      "costPerHour": 15.50,
+      "impactInPlayback": "PARTIAL",
+      "defaultAction": "REPROCESS"
+    },
+    {
+      "id": "T002",
+      "name": "Starboy",
+      "costPerHour": 22.00,
+      "impactInPlayback": "TOTAL",
+      "defaultAction": "REPLACE"
+    },
+    {
+      "id": "T003",
+      "name": "Save Your Tears",
+      "costPerHour": 10.00,
+      "impactInPlayback": "NONE",
+      "defaultAction": "REPROCESS"
+    }
+  ],
+  "editors": [
+    {
+      "id": "E001",
+      "trackId": "T001",
+      "editorRole": "METADATA_REVIEWER",
+      "registeredAt": "2026-05-15T08:00:00.000Z",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "E002",
+      "trackId": "T002",
+      "editorRole": "SYNC_SPECIALIST",
+      "registeredAt": "2026-05-16T10:30:00.000Z",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "E003",
+      "trackId": "T003",
+      "editorRole": "AUDIO_QUALITY_ANALYST",
+      "registeredAt": "2026-05-17T01:15:00.000Z",
+      "status": "BUSY"
+    }
+  ],
+  "service-orders": [
+    {
+      "id": "SO001",
+      "trackId": "T001",
+      "issueId": "ISSUE-991",
+      "neededAction": "REPROCESS",
+      "priority": "NORMAL",
+      "registeredAt": "2026-05-14T09:00:00.000Z"
+    },
+    {
+      "id": "SO002",
+      "trackId": "T002",
+      "issueId": "ISSUE-992",
+      "neededAction": "REPLACE",
+      "priority": "HIGH",
+      "registeredAt": "2026-05-13T14:20:00.000Z"
+    },
+    {
+      "id": "SO003",
+      "trackId": "T003",
+      "issueId": "ISSUE-993",
+      "neededAction": "REPROCESS",
+      "priority": "HIGH",
+      "registeredAt": "2026-05-15T11:00:00.000Z"
+    }
+  ]
+}

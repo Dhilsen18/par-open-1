@@ -1,0 +1,48 @@
+{
+  "TOOLBAR": {
+    "TITLE": "Plataforma Editorial de YouTube Music",
+    "HOME": "Inicio",
+    "NEW_EDITOR": "Nuevo Editor"
+  },
+  "HOME": {
+    "TITLE": "Inicio",
+    "WELCOME": "Bienvenido a YouTube Music",
+    "EDITOR_ANALYTICS": "Analítica de Editores",
+    "NEXT_SERVICE_ORDER": "Siguiente Orden de Servicio"
+  },
+  "EDITOR_ROLE_STATS": {
+    "COST_PER_HOUR": "Costo por Hora",
+    "ACCUMULATED_COST": "Costo Acumulado",
+    "ACTIVE_EDITORS": "Editores Activos"
+  },
+  "SERVICE_ORDER": {
+    "ID": "ID de Orden",
+    "TRACK": "Pista",
+    "NEEDED_ACTION": "Acción Requerida",
+    "PRIORITY": "Prioridad",
+    "REGISTERED_AT": "Registrado El",
+    "NO_ORDER": "No se encontraron órdenes de servicio con prioridad ALTA."
+  },
+  "NEW_EDITOR": {
+    "TITLE": "Nuevo Editor",
+    "SUBTITLE": "Agregar un Registro de Editor",
+    "TRACK": "Pista",
+    "TRACK_PLACEHOLDER": "Seleccione una pista",
+    "EDITOR_ROLE": "Rol del Editor",
+    "EDITOR_ROLE_PLACEHOLDER": "Seleccione un rol",
+    "CREATE": "Crear",
+    "CANCEL": "Cancelar",
+    "SUCCESS": "Editor creado exitosamente.",
+    "ERROR_DUPLICATE": "Ya existe un registro para esta pista hoy.",
+    "ERROR_GENERIC": "Ocurrió un error. Por favor intente nuevamente."
+  },
+  "NOT_FOUND": {
+    "TITLE": "Página No Encontrada",
+    "MESSAGE": "La ruta '{{route}}' no fue encontrada.",
+    "GO_HOME": "Ir al Inicio"
+  },
+  "LANGUAGE": {
+    "EN": "EN",
+    "ES": "ES"
+  }
+}
